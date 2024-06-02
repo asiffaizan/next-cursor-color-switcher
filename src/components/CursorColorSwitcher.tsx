@@ -31,8 +31,7 @@ function CursorColorSwitcher() {
             backgroundColor: 'white',
           });
         };
-        cursor.addEventListener('mousemove',
-          handleMouseMove);
+        cursor.addEventListener('mousemove', handleMouseMove);
         cursor.addEventListener('mouseleave', handleMouseLeave);
 
         return()=>{
